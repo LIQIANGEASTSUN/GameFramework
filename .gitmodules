@@ -1,0 +1,9 @@
+[submodule "Packages/GameInterface"]
+	path = Packages/GameInterface
+	url = git@github.com:LIQIANGEASTSUN/GameInterface.git
+[submodule "Packages/GameSDK"]
+	path = Packages/GameSDK
+	url = git@github.com:LIQIANGEASTSUN/GameSDK.git
+[submodule "Packages/GameHub"]
+	path = Packages/GameHub
+	url = git@github.com:LIQIANGEASTSUN/GameHub.git

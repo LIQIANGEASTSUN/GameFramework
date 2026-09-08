@@ -1,5 +1,23 @@
 {
   "dependencies": {
+    "com.liqiangeastsun.gamehub": {
+      "version": "file:GameHub",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "com.liqiangeastsun.gameinterface": {
+      "version": "file:GameInterface",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "com.liqiangeastsun.gamesdk": {
+      "version": "file:GameSDK",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
     "com.unity.ai.navigation": {
       "version": "2.0.9",
       "depth": 0,
