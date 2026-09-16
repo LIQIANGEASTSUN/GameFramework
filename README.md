@@ -8,7 +8,7 @@
 
 启动前确认包解析与所需平台模块。包声明与解析结果见 [manifest.json](Packages/manifest.json)、[packages-lock.json](Packages/packages-lock.json)，构建场景见 [EditorBuildSettings.asset](ProjectSettings/EditorBuildSettings.asset)。
 
-[GameInterface](Packages/GameInterface/README.md)、[GameSDK](Packages/GameSDK/README.md)、[GameHub](Packages/GameHub/README.md) 是独立子模块。包 README 说明定位，实际已提供能力以源码为准；模块边界与已有需求入口见[架构与模块](Docs/Project/02_架构与模块.md)。
+GameInterface、GameSDK、GameHub 是独立子模块，其文档入口及项目代码与资源归属见[架构与模块](Docs/Project/02_架构与模块.md)。包根 README 维护稳定的框架职责、边界、依赖与文档组织约定；按包内目录定位功能需求，由需求直接导航 Task，执行状态与结果在所属 Task 维护。实际可用能力需核查源码及验证结果；实现和验收以需求、Task 及其显式规范依赖为准，见[文档组织规范](Docs/Project/06_文档组织规范.md)。
 
 ## 开展工作
 
@@ -18,8 +18,9 @@
 |---|---|
 | 怎样查询、启动或继续 | [任务使用指南](Docs/Project/03_任务使用指南.md) |
 | 产品目标与近期推进 | [项目定义](Docs/Project/01_项目定义.md)、[近期工作](Docs/Project/07_近期工作.md) |
-| 代码归属与模块入口 | [架构与模块](Docs/Project/02_架构与模块.md) |
-| 需求、Task 和模块说明怎样维护 | [文档组织规范](Docs/Project/06_文档组织规范.md) |
+| 项目代码与资源归属、框架接入入口 | [架构与模块](Docs/Project/02_架构与模块.md) |
+| 文档怎样命名、维护与退役 | [文档组织规范](Docs/Project/06_文档组织规范.md) |
+| 模块怎样组织、记录状态与交付 | [模块组织与交付规范](Docs/Project/08_模块组织与交付规范.md) |
 | Agent 怎样协作和交付 | [Agent 协作协议](Docs/Project/04_Agent协作协议.md) |
 | 工程修改和验证要求 | [工程实施与验收标准](Docs/Project/05_工程实施与验收标准.md) |
 

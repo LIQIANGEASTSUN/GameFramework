@@ -16,7 +16,9 @@
       "version": "file:GameSDK",
       "depth": 0,
       "source": "embedded",
-      "dependencies": {}
+      "dependencies": {
+        "com.liqiangeastsun.gameinterface": "0.1.0"
+      }
     },
     "com.tuyoogame.yooasset": {
       "version": "3.0.5",
